@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const galleryContainer = document.getElementById('behold-gallery');
-    const apiUrl = 'https://behold.so/api/v1/users/YOUR_USER_ID/feed?apiKey=YOUR_API_KEY';
+    const apiUrl = 'https://feeds.behold.so/TvLlp6N8ElIk4FWR5cfa';
 
     fetch(apiUrl)
         .then(response => response.json())
