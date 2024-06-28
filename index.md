@@ -41,6 +41,16 @@ title: Alessia Valentina's Figure Skating Journey
         </div>
     </section>
 
+    <!-- Follow -->
+    <section class="wrapper style1 align-center">
+    <div class="inner">
+        <h1>Follow</h1>
+            <ul class="icons">
+                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+            </ul>
+    </div>
+    </section>
+
     <!-- Footer -->
     <footer class="wrapper style1 align-center">
         <div class="inner">
