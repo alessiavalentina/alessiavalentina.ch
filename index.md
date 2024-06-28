@@ -19,7 +19,7 @@ title: Alessia Valentina's Figure Skating Journey
     <section class="wrapper style1 align-center">
         <div class="inner medium">
             <h2>Get in touch</h2>
-            <form action="https://formspree.io/f/mgvwwgry" method="POST">
+            <form id="contactForm" method="post" action="#">
                 <div class="fields">
                     <div class="field half">
                         <label for="name">Name</label>
@@ -43,12 +43,12 @@ title: Alessia Valentina's Figure Skating Journey
 
     <!-- Follow -->
     <section class="wrapper style1 align-center">
-    <div class="inner">
-        <h2>Follow</h2>
+        <div class="inner">
+            <h2>Follow</h2>
             <ul class="icons">
                 <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
             </ul>
-    </div>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -59,3 +59,34 @@ title: Alessia Valentina's Figure Skating Journey
     </footer>
 
 </div>
+
+<script>
+$(document).ready(function() {
+    $('#contactForm').on('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting via the browser
+
+        // Collect form data
+        var formData = {
+            'name': $('input[name=name]').val(),
+            'email': $('input[name=email]').val(),
+            'message': $('textarea[name=message]').val()
+        };
+
+        // Send the data using AJAX
+        $.ajax({
+            type: 'POST',
+            url: 'https://formspree.io/f/mgvwwgry', // Replace with your Formspree URL or your server endpoint
+            data: formData,
+            dataType: 'json',
+            encode: true,
+            success: function(response) {
+                alert('Thank you for contacting us!');
+                $('#contactForm')[0].reset(); // Reset the form
+            },
+            error: function(error) {
+                alert('There was an error sending your message.');
+            }
+        });
+    });
+});
+</script>
