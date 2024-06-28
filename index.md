@@ -44,9 +44,6 @@ title: Alessia Valentina's Figure Skating Journey
     <!-- Footer -->
     <footer class="wrapper style1 align-center">
         <div class="inner">
-            <ul class="icons">
-                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-            </ul>
             <p>&copy; 2024 alessiavalentina.ch | a <a href="https://html5up.net">html5up</a> theme</p>
         </div>
     </footer>
