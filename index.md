@@ -19,7 +19,7 @@ title: Alessia Valentina's Figure Skating Journey
     <section class="wrapper style1 align-center">
         <div class="inner medium">
             <h2>Get in touch</h2>
-            <form method="post" action="#">
+            <form action="https://formspree.io/f/mgvwwgry" method="POST">
                 <div class="fields">
                     <div class="field half">
                         <label for="name">Name</label>
