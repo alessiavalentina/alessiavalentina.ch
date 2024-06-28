@@ -59,12 +59,3 @@ title: Alessia Valentina's Figure Skating Journey
     </footer>
 
 </div>
-
-<!-- Scripts -->
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/util.js"></script>
-<script src="{{ site.baseurl }}/assets/js/main.js"></script>
