@@ -55,7 +55,7 @@ title: Alessia Valentina's Figure Skating Journey
             <ul class="icons">
                 <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
             </ul>
-            <p>&copy; alessiavalentina.ch | A <a href="https://html5up.net">HTML5UP</a> Theme</p>
+            <p>&copy; 2024 alessiavalentina.ch | a <a href="https://html5up.net">html5up</a> theme</p>
         </div>
     </footer>
 
