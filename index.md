@@ -3,9 +3,6 @@ layout: default
 title: Alessia Valentina's Figure Skating Journey
 ---
 
-<h1>Welcome to Alessia Valentina's Figure Skating Journey</h1>
-<p>Follow along as Alessia Valentina trains and competes in various events. Here you will find information about her next performance, achievements, a gallery of her, and sponsorship opportunities.</p>
-
 <!-- Wrapper -->
 <div id="wrapper" class="divided">
 
