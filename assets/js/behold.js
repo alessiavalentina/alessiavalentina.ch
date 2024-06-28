@@ -28,10 +28,24 @@ function createGalleryItem(item, container, caption = '') {
     link.href = item.permalink || item.mediaUrl;
     link.className = 'image';
     link.target = '_blank';
-    const img = document.createElement('img');
-    img.src = item.mediaUrl;
-    img.alt = caption || 'Instagram Post';
-    link.appendChild(img);
+
+    if (item.mediaType === 'VIDEO') {
+        // Handle video posts
+        const video = document.createElement('video');
+        video.src = item.mediaUrl;
+        video.controls = true;
+        video.autoplay = false;
+        video.muted = true;
+        video.className = 'instagram-video';
+        link.appendChild(video);
+    } else {
+        // Handle image posts
+        const img = document.createElement('img');
+        img.src = item.mediaUrl;
+        img.alt = caption || 'Instagram Post';
+        link.appendChild(img);
+    }
+
     const captionDiv = document.createElement('div');
     captionDiv.className = 'caption';
     const h3 = document.createElement('h3');
