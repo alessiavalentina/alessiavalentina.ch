@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-INSTAGRAM_USERNAME = "alessiavalentina.ch"
+INSTAGRAM_USERNAME = "cr7cristianoronaldo"
 IMAGE_DIR = "assets/instagram_images"
 
 def get_instagram_images(username):
