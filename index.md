@@ -15,14 +15,6 @@ title: Alessia Valentina's Figure Skating Journey
     <!-- Gallery -->
     {% include gallery.html %}
 
-    <!-- Introduction -->
-    <section class="wrapper style1 align-center">
-        <div class="inner">
-            <h1>Welcome to Alessia Valentina's Figure Skating Journey</h1>
-            <p>Follow along as Alessia Valentina trains and competes in various events. Here you will find information about her next performance, achievements, a gallery of her, and sponsorship opportunities.</p>
-        </div>
-    </section>
-
     <!-- Contact -->
     <section class="wrapper style1 align-center">
         <div class="inner medium">
