@@ -2,11 +2,88 @@
 layout: default
 title: Alessia Valentina's Figure Skating Journey
 ---
-<h1>Welcome to Alessia Valentina's Figure Skating Journey</h1>
-<p>Follow along as Alessia Valentina trains and competes in various events. Here you will find information about her next performance, achievements, a gallery of her, and sponsorship opportunities.</p>
-<ul>
-  <li><a href="/countdown.html">Events</a></li>
-  <li><a href="/gallery.html">Gallery</a></li>
-  <li><a href="/achievements.html">Achievements</a></li>
-  <li><a href="/sponsoring.html">Sponsoring</a></li>
-</ul>
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- Banner -->
+				{% include banner.html %}
+
+				<!-- Spotlight -->
+				{% include spotlight.html %}
+
+				<!-- Gallery -->
+				{% include gallery.html %}
+
+				<!-- Introduction -->
+				<section class="wrapper style1 align-center">
+					<div class="inner">
+						<h1>Welcome to Alessia Valentina's Figure Skating Journey</h1>
+						<p>Follow along as Alessia Valentina trains and competes in various events. Here you will find information about her next performance, achievements, a gallery of her, and sponsorship opportunities.</p>
+					</div>
+				</section>
+
+				<!-- Contact -->
+				<section class="wrapper style1 align-center">
+					<div class="inner medium">
+						<h2>Get in touch</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" value="" />
+								</div>
+								<div class="field half">
+									<label for="email">Email</label>
+									<input type="email" name="email" id="email" value="" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="6"></textarea>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</section>
+
+				<!-- Footer -->
+				<footer class="wrapper style1 align-center">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p>&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+	</body>
+</html>
