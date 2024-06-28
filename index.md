@@ -6,6 +6,19 @@ title: Alessia Valentina's Figure Skating Journey
 <!-- Wrapper -->
 <div id="wrapper" class="divided">
 
+<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+    <div class="content">
+        <h1>Alessia Valentina's</h1>
+        <p class="major">Figure Skating Journey</p>
+        <ul class="actions stacked">
+            <li><a href="#first" class="button big wide smooth-scroll-middle">Follow</a></li>
+        </ul>
+    </div>
+    <div class="image">
+        <img src="{{ site.baseurl }}/images/banner.jpg" alt="" />
+    </div>
+</section>
+
     <!-- Banner -->
     {% include banner.html %}
 
