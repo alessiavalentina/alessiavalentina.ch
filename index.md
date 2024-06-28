@@ -46,7 +46,7 @@ title: Alessia Valentina's Figure Skating Journey
         <div class="inner">
             <h2>Follow</h2>
             <ul class="icons">
-                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://instagram.com/alessiavalentina.ch" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
             </ul>
         </div>
     </section>
