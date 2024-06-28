@@ -10,16 +10,16 @@ title: Alessia Valentina's Figure Skating Journey
     {% include banner.html %}
 
     <!-- Spotlight -->
-    {% include spotlight.html %}
+    <!-- {% include spotlight.html %} -->
 
     <!-- Gallery -->
-    {% include gallery.html %}
+    <!-- {% include gallery.html %} -->
 
     <!-- Contact -->
     <section class="wrapper style1 align-center">
         <div class="inner medium">
             <h2>Get in touch</h2>
-            <form id="contactForm" method="post" action="#">
+                <form action="https://formspree.io/f/mgvwwgry" method="POST">
                 <div class="fields">
                     <div class="field half">
                         <label for="name">Name</label>
@@ -59,34 +59,3 @@ title: Alessia Valentina's Figure Skating Journey
     </footer>
 
 </div>
-
-<script>
-$(document).ready(function() {
-    $('#contactForm').on('submit', function(event) {
-        event.preventDefault(); // Prevent the form from submitting via the browser
-
-        // Collect form data
-        var formData = {
-            'name': $('input[name=name]').val(),
-            'email': $('input[name=email]').val(),
-            'message': $('textarea[name=message]').val()
-        };
-
-        // Send the data using AJAX
-        $.ajax({
-            type: 'POST',
-            url: 'https://formspree.io/f/mgvwwgry', // Replace with your Formspree URL or your server endpoint
-            data: formData,
-            dataType: 'json',
-            encode: true,
-            success: function(response) {
-                alert('Thank you for contacting us!');
-                $('#contactForm')[0].reset(); // Reset the form
-            },
-            error: function(error) {
-                alert('There was an error sending your message.');
-            }
-        });
-    });
-});
-</script>
