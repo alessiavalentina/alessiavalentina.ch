@@ -16,7 +16,7 @@ title: Alessia Valentina's Figure Skating Journey
     <!-- {% include gallery.html %} -->
 
     <!-- Contact -->
-    <section class="wrapper style1 align-center">
+    <section class="wrapper style1 align-center" id="contact">
         <div class="inner medium">
             <h2>Get in touch</h2>
                 <form action="https://formspree.io/f/mgvwwgry" method="POST">
